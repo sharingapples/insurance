@@ -1,0 +1,19 @@
+{
+  "name": "insurance",
+  "version": "0.0.1",
+  "description": "An insurance policy to make sure of value existence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharingapples/insurance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharingapples/insurance/issues"
+  },
+  "homepage": "https://github.com/sharingapples/insurance#readme",
+  "author": "Ranjan Shrestha"
+}
