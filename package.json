@@ -1,6 +1,6 @@
 {
   "name": "ensurance",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An insurance policy to make sure of value existence",
   "main": "__dist__/index.js",
   "scripts": {
