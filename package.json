@@ -2,10 +2,15 @@
   "name": "ensurance",
   "version": "0.0.1",
   "description": "An insurance policy to make sure of value existence",
-  "main": "index.js",
+  "main": "__dist__/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --out-dir __dist__ src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "npm run build"
   },
+  "files": [
+    "__dist__"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,7 +22,10 @@
   "homepage": "https://github.com/sharingapples/insurance#readme",
   "author": "Ranjan Shrestha",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-import-export": "^1.0.2",
     "eslint": "^4.14.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0"
